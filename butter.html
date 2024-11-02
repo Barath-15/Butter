@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Content with Image and Text</title>
+
+    <!-- Link to the favicon image -->
+    <link rel="icon" href="your-image-url.jpg" type="image/jpeg" />
+
+    <style>
+      /* Center all contents and make text slightly bold */
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-weight: 500; /* Slightly bold */
+      }
+
+      /* Header styling for the first line */
+      h1 {
+        font-size: 2em;
+        margin: 10px 0;
+        color: #940722;
+      }
+
+      /* Paragraph styling for other lines */
+      p {
+        font-size: 1em;
+        margin: 5px 0;
+      }
+
+      /* Image styling for a square image */
+      .square-image {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Square Image at the top -->
+    <img
+      src="https://i.imgur.com/Ye9Mn7Q.png"
+      alt="Square Image"
+      class="square-image"
+    />
+
+    <!-- Header (first line) -->
+    <h1>Hello, we're Butter!</h1>
+
+    <!-- Other lines -->
+    <p>We make videos that the audience you care about, cares about.</p>
+    <p>
+      See our work here -
+      <a href="https://www.youtube.com/@butter_video" target="_blank">YouTube</a
+      >.
+    </p>
+    <p>Email - hello@buttervideo.in</p>
+    <p>Mobile - 9952 974 048</p>
+  </body>
+</html>
